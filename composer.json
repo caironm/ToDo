@@ -1,0 +1,22 @@
+{
+  "name"        :"ToDo",
+  "keywords"    : ["ToDo", "base", "framework"],
+  "authors"     : [
+    {
+      "name"    : "Cairon M",
+      "email"   : "caironm.go@gmail.com"
+    }
+  ],
+  "require": {
+    "php": ">=5.4",
+    "catfan/medoo": "1.*",
+    "phpmailer/phpmailer": "5.*",
+    "faisalman/simple-excel-php": "0.*"
+  },
+  "autoload"  : {
+    "psr-0"   : {
+      "app"   : "/",
+      "config": "/"
+    }
+  }
+}
