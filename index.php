@@ -13,7 +13,7 @@ require 'config/functions.php';
 require 'vendor/autoload.php';
 define('URL', 'http://localhost/start/todo/'); 
 
-// Load the routs
+// Load the routes
 require 'app/routs/home.php';
 require 'app/routs/new.php';
 require 'app/routs/update.php';
