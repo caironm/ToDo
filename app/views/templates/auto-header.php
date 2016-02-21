@@ -20,8 +20,8 @@
                     <div class="uk-dropdown uk-dropdown-small">
 
                         <ul class="uk-nav uk-nav-dropdown">
-                            <li><a href="/../start/todo/br/edit/<?php echo $id ?>">Português - Brasil</a></li>
-                            <li><a href="/../start/todo/en/edit/<?php echo $id ?>">Inglês - Internacional</a></li>
+                            <li><a href="<?php echo URL; ?>br">Português - Brasil</a></li>
+                            <li><a href="<?php echo URL; ?>en">Inglês - Internacional</a></li>
                         </ul>
 
                     </div>
