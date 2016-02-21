@@ -34,14 +34,14 @@
         			<td><del>{$data["name"]}</del></td>
             		<td><del>{$data["info"]}</del></td>
             		<td><a href='./update/status/{$data["id"]}'>{$data["status"]}</a></td>
-            		<td><a class=\"uk-button uk-button-small uk-button-danger\" href=\"./{$lang['lang']}/delet/{$data["id"]}\">{$lang['deletButton']}</a></td>
+            		<td><a class=\"uk-button uk-button-small uk-button-danger\" href=\"./{$lang['lang']}/delete/{$data["id"]}\">{$lang['deletButton']}</a></td>
         		</tr>";
 			} else {
 				echo "<tr>
         			<td><a href='./{$lang['lang']}/edit/{$data["id"]}'>{$data["name"]}</a></td>
             		<td>{$data["info"]}</td>
             		<td><a href='./update/status/{$data["id"]}'>{$data["status"]}</a></td> 
-            		<td><a class=\"uk-button uk-button-small uk-button-danger\" href=\"./{$lang['lang']}/delet/{$data["id"]}\">{$lang['deletButton']}</a></td>
+            		<td><a class=\"uk-button uk-button-small uk-button-danger\" href=\"./{$lang['lang']}/delete/{$data["id"]}\">{$lang['deletButton']}</a></td>
         		</tr>";
 			}
 			
